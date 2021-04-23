@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                color: #080;
+            }
+            label{
+                font-weight: bold;
+                
+            }
+            fieldset{
+                background-color: #F5F5F5;  
+                border-color: azure;
+                width: fit-content;
+                width: -moz-fit-content;
+                border-radius: 7px;
+            }
+            fieldset p{
+                text-align: right;
+            }
+            span {
+                color: #000;
+            }
+            h3 {
+                color: #064;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="fomulario">
+            <form>
+                <fieldset>
+                    <h3>Informações para o calculo</h3>
+                    <p><label for="graphId">Id do grafo: </label><input id="graphId" type="text" maxlength="10"/></p>
+                    <p><label for="from">Origem: </label><input id="from" type="text" maxlength="1"/></p>
+                    <p><label for="to">Destino: </label><input id="to" type="text" maxlength="1"/></p>
+                    <p><input type="button" value="Calcular"/></p>
+                </fieldset>
+            </form>
+        </div>
+        <div id="resultado">
+            <h3>Resultado</h3>
+            <p><label>Distância: </label><span>8</span></p>
+            <p><label>Caminho: </label><span>A > B > C</span></p>
+        </div>
+    </body>
+</html>
